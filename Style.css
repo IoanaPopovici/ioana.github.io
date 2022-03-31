@@ -1,0 +1,45 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h1{
+    font-size: 3em;
+    color: aqua;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.buffer{
+    height: 10rem;
+}
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+.btn-warning{
+    background-color: blueviolet;
+    border-color:blueviolet ;
+}
+.btn-warning:hover{
+    background-color: aquamarine;
+    border-color: aquamarine;
+    border-width: 4px;
+}
+.btn-xl{
+    padding: 1rem 2rem;
+}
+hr {
+    margin: 20px auto;
+    color: #F05F44;
+    border: 5px solid #F05F44;
+    background-color: #F05F44;
+    max-width: 80px;
+    opacity: 1;  
+}
